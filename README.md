@@ -5,7 +5,6 @@ Codes used for article: Attentional switch in sensory circuits via complementary
 Everton J. Agnes, Andrea I. Luppi, and Tim P. Vogels
 
 
-
 Folder "one_population" for figure 2
 
 Folder "co-tuned+flat" for figure 3
