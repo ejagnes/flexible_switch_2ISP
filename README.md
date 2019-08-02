@@ -20,7 +20,7 @@ Foler "fig8" for all panels from fig 8
 
 ## Coding language and compilers
 
-Codes originally written to run on intel Fortran compiler and rewritten to run with GNU Fortran (gfortran; free). Plots are made with gnuplot. Figures in the original article were made with Inkscape.
+Codes were originally written to run on intel Fortran compiler. For reproducibility some codes were rewritten to run with GNU Fortran (gfortran; free) and posted here. Plots are made with gnuplot. Figures in the original article were made with gnuplot and Inkscape.
 
 ### GNU Fortran
 
