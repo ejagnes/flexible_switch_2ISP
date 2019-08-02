@@ -1,4 +1,4 @@
-# Codes for generation of simulations and plots of panel B of figures 2,3 and 4
+# Codes for generation of simulations and plots of panel B of figures 2, 3 and 4
 
 ## Parameters
 
