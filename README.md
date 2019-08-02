@@ -8,7 +8,15 @@ Centre for Neural Circuits and Behaviour, University of Oxford, Oxford, UK
 
 Each folder contains codes to run simulations and generate figures:
 
-Folder "figs2_3_4_panel_B" for panel B from figs 2,3 and 4
+Folder "figs2_3_4_panel_B" for panel B from figs 2, 3 and 4
+
+Folder "figs2_3_4_panel_D" for panel D (top) from figs 2, 3 and 4
+
+Folder "figs2_3_4_panel_E" for panel E from figs 2, 3 and 4
+
+Folder "fig6_panelsB_D_F" for panels B, D and F from fig 6
+
+Foler "fig8" for all panels from fig 8
 
 ## Coding language and compilers
 
