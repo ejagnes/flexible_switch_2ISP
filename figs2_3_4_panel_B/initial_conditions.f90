@@ -13,7 +13,7 @@
 	IMPLICIT NONE
 	INTEGER			::	i
 	INTEGER 		::	n,clock
-	INTEGER, DIMENSION(:), ALLOCATABLE :: seed
+	INTEGER,ALLOCATABLE	::	seed(:)
 
 !===================== SEED INITIALISATION TO BE THE SAME =================================!
 	CALL RANDOM_SEED(size = n)

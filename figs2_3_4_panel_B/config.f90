@@ -83,6 +83,13 @@
 	!synaptic weight - inhibitory -> postsynaptic neuron [g_leak]
 	pr(93) = 0.45d0
 !==========================================================================================!
+!============================ SMOOTHING OF EXTERNAL INPUT RATE ============================!
+	!smoothing time constant [ms]
+	pr(101) = 10.0d0
+	!increment for smoothed version of rate input
+	pr(102) = pr(101)/dt
+	!decay of smoothed curve
+	pr(101) = EXP(-dt/pr(101))
 !======================== FILES WITH DATA FROM SIMULATION =================================!
 	OPEN(100,file="plots_tmp.txt")
 	WRITE(100,"(A6)")folder

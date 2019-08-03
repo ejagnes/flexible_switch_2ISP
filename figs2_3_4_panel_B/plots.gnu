@@ -43,5 +43,5 @@ unset label
 set size 1,0.2683
 set yrange[0:75]
 set ytics 25
-set ylabel "neuron" offset 0
+set ylabel "input [Hz]" offset 0
 p working_directory."data02.dat" w l lw 2 lc rgb "#e78ac3" title "non-pref", "" u 1:10 w l lw 2 lc rgb "#66c2a5" title "pref", "" u 1:17 w l lw 2 lc rgb "#e5c494" title "non-pref", "" u 1:(($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17)/16) w l lw 3 lc -1 title "avg"

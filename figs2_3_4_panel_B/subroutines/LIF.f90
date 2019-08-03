@@ -8,7 +8,6 @@
 	SUBROUTINE lif()
 	USE PARAMETERS
 	USE VARIABLES
-!	USE IFPORT
 	IMPLICIT NONE
 	REAL*8		::	tot_cond,u_inf,tau_eff,decay_eff
 
