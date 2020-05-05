@@ -4,6 +4,8 @@ Everton J. Agnes, Andrea I. Luppi, and Tim P. Vogels
 
 Centre for Neural Circuits and Behaviour, University of Oxford, Oxford, UK
 
+Codes are related to bioRxiv preprint version 1 -> https://www.biorxiv.org/content/10.1101/729988v1
+
 ## Repository organisation
 
 Each folder contains codes to run simulations and generate figures:
@@ -12,15 +14,9 @@ Folder "figs2_3_4_panel_B" for panel B from figs 2, 3 and 4
 
 Folder "figs2_3_4_panel_D" for panel D (top) from figs 2, 3 and 4
 
-Folder "figs2_3_4_panel_E" for panel E from figs 2, 3 and 4
-
-Folder "fig6_panelsB_D_F" for panels B, D and F from fig 6
-
-Foler "fig8" for all panels from fig 8
-
 ## Coding language and compilers
 
-Codes were originally written to run on intel Fortran compiler. For reproducibility some codes were rewritten to run with GNU Fortran (gfortran; free) and posted here. Plots are made with gnuplot. Figures in the original article were made with gnuplot and Inkscape.
+Codes were originally written to run on Intel Fortran compiler. For reproducibility the codes posted here were rewritten to run with GNU Fortran (gfortran; free). Plots are made with gnuplot. Figures in the original article were made with gnuplot and Inkscape.
 
 ### GNU Fortran
 
