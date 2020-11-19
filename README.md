@@ -1,18 +1,24 @@
-# Codes used for article: Attentional switch in sensory circuits via complementary inhibitory receptive field profiles
+# Codes used for article: Complementary Inhibitory Weight Profiles Emerge from Plasticity and Allow Flexible Switching of Receptive Fields
 
-Everton J. Agnes, Andrea I. Luppi, and Tim P. Vogels
+Everton J. Agnes (1), Andrea I. Luppi (1), and Tim P. Vogels (1,2)
 
-Centre for Neural Circuits and Behaviour, University of Oxford, Oxford, UK
+1 - Centre for Neural Circuits and Behaviour, University of Oxford, Oxford, UK
 
-Codes are related to bioRxiv preprint version 1 -> https://www.biorxiv.org/content/10.1101/729988v1
+2 - Institute for Science and Technology Austria 
+
+https://doi.org/10.1523/JNEUROSCI.0276-20.2020
 
 ## Repository organisation
 
-Each folder contains codes to run simulations and generate figures:
+Each folder contains codes to run simulations and generate figures.
 
-Folder "figs2_3_4_panel_B" for panel B from figs 2, 3 and 4
+Folder "membrane_potential" for panel B from figures 4, 8 and 10
 
-Folder "figs2_3_4_panel_D" for panel D (top) from figs 2, 3 and 4
+Folder "correlation" for panel D (top) from figuress 4, 8 and 10
+
+Folder "step_input" for panel E from figures 4, 8 and 10
+
+Folder "learning" for panels D and F of figure 5, and figures 7 and 9
 
 ## Coding language and compilers
 
