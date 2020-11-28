@@ -18,7 +18,7 @@ Folder "correlation" for panel D (top) from figuress 4, 8 and 10
 
 Folder "step_input" for panel E from figures 4, 8 and 10
 
-Folder "learning" for panels D and F of figure 5, and figures 7 and 9
+Folder "learning" for figures 7 and 9
 
 ## Coding language and compilers
 
