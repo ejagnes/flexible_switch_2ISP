@@ -1,10 +1,10 @@
-# Codes for simulations after learning to display (i) inputs, (ii) currents, and (iii) postsynaptic membrane potential -> figures 4, 8 and 10, panel B
+# Codes for simulations after learning to display (i) inputs, (ii) currents, and (iii) postsynaptic membrane potential -> panel B from figures 4, 8 and 10
 
 ## How to run
 
 On the terminal, execute the file run.sh -> $./run.sh
 
-It will ask which simulation you would like to run, press 1 or 2 according to your choice.
+It will ask which simulation you would like to run, press 1, 2, or 3 according to your choice.
 
 1 -> Co-tuned only from Hebbian (figure 4)
 
