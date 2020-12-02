@@ -22,7 +22,9 @@ Folder "learning" for figures 7 and 9
 
 ## Coding language and compilers
 
-Codes were originally written to run on Intel Fortran compiler. For reproducibility the codes posted here were rewritten to run with GNU Fortran (gfortran; free). Plots are made with gnuplot. Figures in the original article were made with gnuplot and Inkscape.
+Codes were originally written to run on Intel Fortran compiler. For reproducibility the codes posted here were rewritten to run with GNU Fortran (gfortran; free). Plots are made with gnuplot. To run the code from this repository you need both GNU Fortran (gfortran) and Gnuplot installed on a linux machine.
+
+Figures in the original article were made with gnuplot and Inkscape.
 
 ### GNU Fortran
 
