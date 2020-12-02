@@ -1,5 +1,4 @@
-# Codes for simulations after learning to display (i) inputs, (ii) currents, and (iii) postsynaptic membrane potential 
--> figures 4, 8 and 10, panel B
+# Codes for simulations after learning to display (i) inputs, (ii) currents, and (iii) postsynaptic membrane potential -> figures 4, 8 and 10, panel B
 
 ## How to run
 
