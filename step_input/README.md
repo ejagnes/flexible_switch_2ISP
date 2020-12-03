@@ -1,4 +1,4 @@
-# Codes for simulations after learning to display output for phasic and tonic response to step input -> panel E from figures 4, 8 and 10
+# Code for simulations after learning to display output for phasic and tonic response to step input -> panel E from figures 4, 8 and 10
 
 ## How to run
 
