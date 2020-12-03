@@ -12,7 +12,7 @@ It will ask which simulation you would like to run, press 1, 2, or 3 according t
 
 3 -> Co-tuned from Hebbian + counter-tuned from anti-Hebbian (figure 10)
 
-It will take approximately 10 minutes to run 60 minutes of simulation time (more or less depending on your processor). 
+It will take approximately 25 minutes to run 60 minutes of simulation time (more or less depending on your processor). 
 The figure will be generated automatically once simulation is over.
 
 ## Folders
