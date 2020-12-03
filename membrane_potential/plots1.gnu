@@ -69,17 +69,17 @@ unset xlabel
 set format x ""
 set ytics 25
 set ylabel "current (nA)"
-p working_directory."data02.dat" every ::0::19999 u ($1-1000):($2/100) w l lt 17, "" every ::0::19999 u ($1-1000):($3/100) w l lt 18, "" every ::0::19999 u ($1-1000):($4/100) w l lt 19, "" every ::0::19999 u ($1-1000):(($2+$3+$4+$5)/100) w l lt 20
+p working_directory."data02.dat" every ::0::19999 u ($1-1000):($2/100) w l lt 17, "" every ::0::19999 u ($1-1000):(($3+$4)/100) w l lt 18, "" every ::0::19999 u ($1-1000):(($2+$3+$4+$5)/100) w l lt 20
 
 set origin 0.36,0.3
 set size 0.4,0.25
 set format y ""
 unset ylabel
-p working_directory."data02.dat" every ::20001::39999 u ($1-1000):($2/100) w l lt 17, "" every ::20001::39999 u ($1-1000):($3/100) w l lt 18, "" every ::20001::39999 u ($1-1000):($4/100) w l lt 19, "" every ::20001::39999 u ($1-1000):(($2+$3+$4+$5)/100) w l lt 20
+p working_directory."data02.dat" every ::20001::39999 u ($1-1000):($2/100) w l lt 17, "" every ::20001::39999 u ($1-1000):(($3+$4)/100) w l lt 18, "" every ::20001::39999 u ($1-1000):(($2+$3+$4+$5)/100) w l lt 20
 
 set origin 0.66,0.3
 set size 0.4,0.25
-p working_directory."data02.dat" every ::40100::59999 u ($1-1000):($2/100) w l lt 17, "" every ::40100::59999 u ($1-1000):($3/100) w l lt 18, "" every ::40100::59999 u ($1-1000):($4/100) w l lt 19, "" every ::40100::59999 u ($1-1000):(($2+$3+$4+$5)/100) w l lt 20
+p working_directory."data02.dat" every ::40100::59999 u ($1-1000):($2/100) w l lt 17, "" every ::40100::59999 u ($1-1000):(($3+$4)/100) w l lt 18, "" every ::40100::59999 u ($1-1000):(($2+$3+$4+$5)/100) w l lt 20
 
 #######################################################
 
@@ -107,4 +107,3 @@ set size 0.4,0.25
 unset label
 set label "Strong inhibition" at 500,70 textcolor lt 3
 p working_directory."data03.dat" every ::40100::59999 u ($1-1000):2 w l lt 4, "" every ::40100::59999 u ($1-1000):17 w l lt 5, "" every ::40100::59999 u ($1-1000):10 w l lt 6, "" every ::40100::59999 u ($1-1000):(($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17)/16) w l lt 20
-
