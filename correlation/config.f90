@@ -103,17 +103,24 @@
 !!!!!!!!        x(1)  -> membrane potential (mV)                                    !!!!!!!!
 !!!!!!!!        x(2)  -> AMPA conductance (g_leak)                                  !!!!!!!!
 !!!!!!!!        x(3)  -> GABA_A conductance (g_leak)                                !!!!!!!!
+!!!!!!!!        x(5)  -> filtered output spike train (Hz)                           !!!!!!!!
+!!!!!!!!        x(6)  -> short average of x(5)                                      !!!!!!!!
+!!!!!!!!        x(7)  -> short average of x(5)*x(5)                                 !!!!!!!!
+!!!!!!!!        x(8)  -> long average of x(6)                                       !!!!!!!!
+!!!!!!!!        x(9)  -> long average of x(7)                                       !!!!!!!!
 !!!!!!!!                                                                            !!!!!!!!
 !!!!!!!!        msynw  -> synaptic weights                                          !!!!!!!!
 !!!!!!!!                                                                            !!!!!!!!
 !!!!!!!!        patt_time -> OU variable                                            !!!!!!!!
 !!!!!!!!        inp_patt -> rate envelope for inh. Poisson process                  !!!!!!!!
 !!!!!!!!                                                                            !!!!!!!!
-!!!!!!!!        activity -> filtered presynaptic spike trains                       !!!!!!!!
-!!!!!!!!                                                                            !!!!!!!!
-!!!!!!!!        curr_e -> total excitatory input current                            !!!!!!!!
-!!!!!!!!        curr_i1, curr_i2 -> total inhibitory input current from pops. 1 & 2 !!!!!!!!
-!!!!!!!!        curr_leak -> leak current                                           !!!!!!!!
-!!!!!!!!        cond_e -> total excitatory conductance                              !!!!!!!!
-!!!!!!!!        cond_i1, cond_i2 -> total inhibitory conductance from pops. 1 & 2   !!!!!!!!
+!!!!!!!!        activity         -> filtered presynaptic spike trains (Hz)          !!!!!!!!
+!!!!!!!!        activity_av      -> short average of activity                       !!!!!!!!
+!!!!!!!!        activity_av2     -> average of activity*activity                    !!!!!!!!
+!!!!!!!!        activity_av_t    -> long average of activity_av                     !!!!!!!!
+!!!!!!!!        activity_av_t2   -> long average of activity_av2                    !!!!!!!!
+!!!!!!!!        cross_activity   -> average of x(5)*activity                        !!!!!!!!
+!!!!!!!!        cross_activity_t -> long average of cross_activity                  !!!!!!!!
+!!!!!!!!        covariance       -> covariance input/output                         !!!!!!!!
+!!!!!!!!        norm             -> SD input*SD output (norm for Pearson corr)      !!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
