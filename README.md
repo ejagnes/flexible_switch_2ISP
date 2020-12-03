@@ -1,4 +1,4 @@
-# Codes used for article: Complementary Inhibitory Weight Profiles Emerge from Plasticity and Allow Flexible Switching of Receptive Fields
+# Code used for article: Complementary Inhibitory Weight Profiles Emerge from Plasticity and Allow Flexible Switching of Receptive Fields
 
 Everton J. Agnes (1), Andrea I. Luppi (1), and Tim P. Vogels (1,2)
 
@@ -10,7 +10,7 @@ https://doi.org/10.1523/JNEUROSCI.0276-20.2020
 
 ## Repository organisation
 
-Each folder contains codes to run simulations and generate figures.
+Each folder contains the code to run simulations and generate figures.
 
 Folder "membrane_potential" for panel B from figures 4, 8 and 10
 
@@ -22,9 +22,9 @@ Folder "learning" for figures 7 and 9
 
 ## Coding language and compilers
 
-Codes were originally written to run on Intel Fortran compiler. For reproducibility the codes posted here were rewritten to run with GNU Fortran (gfortran; free). Plots are made with gnuplot. To run the code from this repository you need both GNU Fortran (gfortran) and Gnuplot installed on a linux machine.
+The code was originoriginally written to run on Intel Fortran compiler. For reproducibility the code posted here was rewritten to run with GNU Fortran (gfortran; free). Plots are generated with gnuplot. To run the code from this repository you need both GNU Fortran (gfortran) and Gnuplot installed on a linux machine (not tested on Windows or iOS).
 
-Figures in the original article were made with gnuplot and Inkscape.
+Figures in the original article were generated with gnuplot and edited with Inkscape.
 
 ### GNU Fortran
 
