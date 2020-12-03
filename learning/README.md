@@ -1,4 +1,4 @@
-# Codes for simulations with learning -> figures 7 and 9
+# Code for simulations with learning -> figures 7 and 9
 
 ## How to run
 
@@ -19,7 +19,7 @@ The figure will be generated automatically once simulation is over.
 
 ## Folders
 
-There are two source codes for the two different simulations. 
+There are two source code for the two different simulations. 
 Folder "Hebbian_scaling" contains the code for the simulation with Hebbian and scaling models (figure 7). 
 Folder "Hebbian_antiHebbian" contains the code for the simulation with Hebbian and anti-Hebbian models (figure 9). 
 
