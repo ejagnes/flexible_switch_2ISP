@@ -32,7 +32,7 @@ echo "==================================================================="
 echo "=------------------------ compiling ------------------------------="
 echo "=                                                                 ="
 echo "=------------------------ messages: ------------------------------="
-gfortran complementary_switch_correlations.gnuf90 -o complementary_executable -Ofast
+gfortran complementary_switch_correlations.f90 -o complementary_executable -Ofast
 echo "==================================================================="
 echo ""
 echo "==================================================================="
