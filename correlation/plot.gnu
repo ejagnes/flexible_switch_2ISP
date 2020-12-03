@@ -19,6 +19,6 @@ set mxtics 3
 set xtics out nomirror 1,3
 set ylabel "correlation"
 set xlabel "signal input"
-set yrange [-0.15:0.2]
+set yrange [-0.15:0.25]
 set ytics 0.1
 p working_directory."data01.dat" every ::0::15 u 1:2 w l lt 1, "" every ::16::31 u 1:2 w l lt 2, "" every ::32::47 u 1:2 w l lt 19, 0 lc -1 lw 1.5

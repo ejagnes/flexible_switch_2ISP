@@ -14,7 +14,7 @@
 	LOGICAL,ALLOCATABLE	:: spk(:)
 	LOGICAL			:: spk_post
 	REAL*8			:: x(30),tr,spkt_post
-	REAL*8,ALLOCATABLE	:: patt_time(:),inp_patt(:),spkr(:)
+	REAL*8,ALLOCATABLE	:: patt_time(:),inp_patt(:),spkr(:),activity(:)
 	INTEGER			:: sims_type
 	REAL*8,ALLOCATABLE	:: activity_av(:),activity_av2(:),activity_av_t(:),activity_av_t2(:)
 	REAL*8,ALLOCATABLE	:: cross_activity(:),cross_activity_t(:)
