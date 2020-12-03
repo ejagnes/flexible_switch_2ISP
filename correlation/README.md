@@ -1,4 +1,4 @@
-# Codes for simulations after learning to display output for phasic and tonic response to step input -> panel E from figures 4, 8 and 10
+# Codes for simulations after learning to display input/output correlation -> panel D (top) from figures 4, 8 and 10
 
 ## How to run
 
@@ -12,8 +12,7 @@ It will ask which simulation you would like to run, press 1, 2, or 3 according t
 
 3 -> Co-tuned from Hebbian + counter-tuned from anti-Hebbian (figure 10)
 
-It will take approximately 15 minutes to run ~80 minutes of simulation time (more or less depending on your processor). 
-It consists of 100 trials for each input signal, for 9 different step inputs, and for 3 cases. 
+It will take approximately 10 minutes to run 60 minutes of simulation time (more or less depending on your processor). 
 The figure will be generated automatically once simulation is over.
 
 ## Folders
