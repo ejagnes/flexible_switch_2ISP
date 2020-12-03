@@ -2,7 +2,11 @@
 
 ## How to run
 
-On the terminal, execute the file run.sh -> $./run.sh
+On the terminal, execute the file run.sh -> $bash run.sh
+
+Or change the file to executable -> $chmod +x run.sh
+
+and then run it directly -> $./run.sh
 
 It will ask which simulation you would like to run, press 1, 2, or 3 according to your choice.
 
